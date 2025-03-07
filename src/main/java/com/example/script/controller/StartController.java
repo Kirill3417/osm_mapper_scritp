@@ -19,7 +19,7 @@ public class StartController {
 
     @GetMapping(path = "/startApplication")
     public void startApplication() throws IOException {
-//       startService.createConstructionIndicators();
+       startService.createConstructionIndicators();
        startService.createDistrictsAndSubdistricts();
     }
 }
